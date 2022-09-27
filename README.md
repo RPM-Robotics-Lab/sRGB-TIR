@@ -17,47 +17,64 @@ Submitted to ICRA 2023
 ## Overview of the edge-guided multi-domain RGB2TIR translation network
 
 
-
-
-
  <div align="center">
     
   ![overview_new-1](https://user-images.githubusercontent.com/91654037/192519743-d21b8957-176b-44c7-a138-22bbfc79fd7b.png)
 
-  
+ </div>
+
+
+## Proposed pipeline for training vision tasks with challenging labels
+
+- Our target tasks are deep optical flow estimation and object detection in thermal images.
+
+
+ <div align="center">
+    
+ ![proposed_method-1](https://user-images.githubusercontent.com/91654037/192519964-302b09af-c368-4ee3-81c8-7d45a5065561.png)
+
+
  </div>
 
 
 
- - ***PrimA6D (RA-L 2020)***
-    - PrimA6D reconstructs the rotation primitive and its associated keypoints corresponding to the target object for enhancing the orientation inference.
-    <div align="center">
-      <a href="https://www.youtube.com/watch?v=HbNmsmTLRmk"><img src="assets/prima6d.png" width="75%" alt="IMAGE ALT TEXT"></a>
-    </div>
-    
-    - More details in [PrimA6D: Rotational Primitive Reconstruction for Enhanced and Robust 6D Pose Estimation](https://arxiv.org/abs/2006.07789)
+## Results
 
- 
-    
-   - With estimated uncertainties, PrimA6D++ handles object ambiguity without prior information on object shape.
-   
-    <div align="center">
-      <a href="https://www.youtube.com/watch?v=akbI61jUJgY"><img src="assets/prima6d++_2.gif" width="49%" alt="IMAGE ALT TEXT"></a>
-      <a href="https://www.youtube.com/watch?v=akbI61jUJgY"><img src="assets/prima6d++_4.gif" width="49%" alt="IMAGE ALT TEXT"></a>
-    </div>
-    
-   - More details in [Ambiguity-Aware Multi-Object Pose Optimization for Visually-Assisted Robot Manipulation]()
+***Disclaimer***
 
- - ***Object-SLAM for Multi-Object Pose Optimization (Under Review)***
-   - Leveraging the uncertainty, we formulate the problem as an object-SLAM to optimize multi-object poses.
-   
-    <div align="center">
-      <a href="https://www.youtube.com/watch?v=akbI61jUJgY"><img src="assets/slam.gif" width="75%" alt="IMAGE ALT TEXT"></a>      
-    </div>   
-   
-   - More details in [Ambiguity-Aware Multi-Object Pose Optimization for Visually-Assisted Robot Manipulation]()
+-**The same model was used for both synthetic and real RGB to TIR image translation
+-**The model was trained on identical datasets (sRGB=GTA, TIR=STheReO)**
 
-  
+- Results on synthetic RGB to TIR translation
+
+
+ <div align="center">
+    
+ ![synthetic_rgb_original-1](https://user-images.githubusercontent.com/91654037/192520365-aab88340-b02a-4836-a810-a0569585588a.png)
+ </div>
+- Results on real RGB to TIR translation
+
+  - model trained on synthetic RGB image was adapted to translate real RGB image to TIR image. 
+
+ <div align="center">
+    
+ ![real_rgb_translation_pdf-1](https://user-images.githubusercontent.com/91654037/192520440-ca12d290-701d-48f3-bdf9-1c49404bb7fd.png)
+
+ </div>
+
+- Results on thermal optical flow estimation using the proposed method
+
+<div align="center">
+ ![optical_flow_comparison-1](https://user-images.githubusercontent.com/91654037/192520499-a250d58d-14b1-4ae9-9b33-75e64c568537.png)
+ </div>
+
+
+
+
+## Video demonstration
+
+TBA.
+
 ## How to use
 
  TBA.
