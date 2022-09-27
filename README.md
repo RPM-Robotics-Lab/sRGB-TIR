@@ -52,9 +52,21 @@ Submitted to ICRA 2023
 ## Network Details##
 
 
-- Edge-guided multi-domain RGB2TIR translation architecture
+Edge-guided multi-domain RGB2TIR translation architecture
 
-  - aaa
+- Network Architecture
+
+
+
+  - Content Encoder: single 7x7 conv block + four 4x4 conv block + four residual blocks + Instance Normalization
+  - Style Encoder: single 7x7 conv block + four 4x4 conv block + four residual blocks + GAP + FC layers
+  - Decoder (Generator): 4x4 conv + residual blocks in encoder-decoder architecture.
+  - Discriminator: Repeated 4x4 convolutions
+Model codes will be released after the review process has been cleared.
+
+
+- Training details
+ 
 
 ## Citation
 
