@@ -3,7 +3,7 @@
   ** Source code will be available soon after review process **
 </h2>
 
-## Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
+### Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
 Submitted to ICRA 2023 
 
 <div align="left">  
@@ -14,7 +14,7 @@ Submitted to ICRA 2023
 </div>
 
 
-## Overview of the edge-guided multi-domain RGB2TIR translation network
+### Overview of the edge-guided multi-domain RGB2TIR translation network
 
 
  <div align="center">
@@ -24,7 +24,7 @@ Submitted to ICRA 2023
  </div>
 
 
-## Proposed pipeline for training vision tasks with challenging labels
+### Proposed pipeline for training vision tasks with challenging labels
 
 - Our target tasks are deep optical flow estimation and object detection in thermal images.
 
@@ -38,7 +38,7 @@ Submitted to ICRA 2023
 
 
 
-## Results
+### Results
 
 ***Disclaimer***
 
@@ -54,6 +54,8 @@ Submitted to ICRA 2023
     
  ![synthetic_rgb_original-1](https://user-images.githubusercontent.com/91654037/192520365-aab88340-b02a-4836-a810-a0569585588a.png)
  </div>
+ 
+ 
 # Results on real RGB to TIR translation
 
   - model trained on synthetic RGB image was adapted to translate real RGB image to TIR image. 
