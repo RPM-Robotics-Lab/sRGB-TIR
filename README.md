@@ -65,8 +65,10 @@ Submitted to ICRA 2023
 - Results on thermal optical flow estimation using the proposed method
 
 <div align="center">
- ![optical_flow_comparison-1](https://user-images.githubusercontent.com/91654037/192520499-a250d58d-14b1-4ae9-9b33-75e64c568537.png)
- </div>
+ 
+  ![optical_flow_comparison-1](https://user-images.githubusercontent.com/91654037/192520499-a250d58d-14b1-4ae9-9b33-75e64c568537.png)
+ 
+</div>
 
 
 
