@@ -43,6 +43,8 @@ Submitted to ICRA 2023
 ***Disclaimer***
 
 -The same model was used for both synthetic and real RGB to TIR image translation
+
+
 -The model was trained on identical datasets (sRGB=GTA, TIR=STheReO)
 
 - Results on synthetic RGB to TIR translation
