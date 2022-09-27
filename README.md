@@ -82,7 +82,7 @@ TBA.
  TBA.
 
 
-## Network Details##
+## Network Details
 
 
 Edge-guided multi-domain RGB2TIR translation architecture
