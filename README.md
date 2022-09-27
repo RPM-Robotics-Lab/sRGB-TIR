@@ -3,7 +3,7 @@
   ** Source code will be available soon after review process **
 </h2>
 
-# Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
+## Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
 Submitted to ICRA 2023 
 
 <div align="left">  
@@ -47,14 +47,14 @@ Submitted to ICRA 2023
 
 -The model was trained on identical datasets (sRGB=GTA, TIR=STheReO)
 
-- Results on synthetic RGB to TIR translation
+# Results on synthetic RGB to TIR translation
 
 
  <div align="center">
     
  ![synthetic_rgb_original-1](https://user-images.githubusercontent.com/91654037/192520365-aab88340-b02a-4836-a810-a0569585588a.png)
  </div>
-- Results on real RGB to TIR translation
+# Results on real RGB to TIR translation
 
   - model trained on synthetic RGB image was adapted to translate real RGB image to TIR image. 
 
@@ -64,7 +64,7 @@ Submitted to ICRA 2023
 
  </div>
 
-- Results on thermal optical flow estimation using the proposed method
+# Results on thermal optical flow estimation using the proposed method
 
 <div align="center">
  
