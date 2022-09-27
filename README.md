@@ -47,7 +47,14 @@ Submitted to ICRA 2023
 ## How to use
 
  TBA.
- 
+
+
+## Network Details##
+
+
+- Edge-guided multi-domain RGB2TIR translation architecture
+
+  - aaa
 
 ## Citation
 
