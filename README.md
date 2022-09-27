@@ -13,10 +13,19 @@ Submitted to ICRA 2023
   <a href="https://ayoungk.github.io/">Ayoung Kim</a> at <a href="https://rpm.snu.ac.kr">RPM Robotics Lab</a>
 </div>
 
-[overview_new.pdf](https://github.com/rpmsnu/sRGB-TIR/files/9655089/overview_new.pdf)
-
 
 ## Overview of the edge-guided multi-domain RGB2TIR translation network
+
+
+
+
+
+ <div align="center">
+    
+  ![overview_new-1](https://user-images.githubusercontent.com/91654037/192519743-d21b8957-176b-44c7-a138-22bbfc79fd7b.png)
+
+  
+ </div>
 
 
 
