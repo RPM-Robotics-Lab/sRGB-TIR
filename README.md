@@ -79,9 +79,9 @@ Submitted to ICRA 2023
 
 ## Video demonstration
 
-  <div align="center">
-      <a href="https://youtu.be/zq8Qh9ygm6w"></a>
-    </div>
+
+[![Video Label](http://img.youtube.com/vi/zq8Qh9ygm6w/0.jpg)]([https://youtu.be/uLR1RNqJ1Mw](https://youtu.be/zq8Qh9ygm6w)?t=0s)
+
 
 ## How to use
 
