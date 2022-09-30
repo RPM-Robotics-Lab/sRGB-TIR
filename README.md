@@ -82,7 +82,7 @@ Submitted to ICRA 2023
 
 [![Video Label](http://img.youtube.com/vi/zq8Qh9ygm6w/0.jpg)]([https://youtu.be/uLR1RNqJ1Mw](https://youtu.be/zq8Qh9ygm6w)?t=0s)
 
-https://youtu.be/uLR1RNqJ1Mw](https://youtu.be/zq8Qh9ygm6w
+https://youtu.be/zq8Qh9ygm6w
 ## How to use
 
  TBA.
