@@ -79,7 +79,9 @@ Submitted to ICRA 2023
 
 ## Video demonstration
 
-TBA.
+  <div align="center">
+      <a href="https://youtu.be/zq8Qh9ygm6w"></a>
+    </div>
 
 ## How to use
 
