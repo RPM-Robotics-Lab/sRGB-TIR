@@ -1,14 +1,13 @@
 <h2 align="center">
-  Dear ICRA reviewers
-  ** Source code will be available soon after review process **
+  ** Source code will be available soon in April **
 </h2>
 
 ### Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
-Submitted to ICRA 2023 
+Accepted Proceedings to ICRA 2023 
 
 <div align="left">  
   <a href="https://scholar.google.com/citations?user=u6VDnlgAAAAJ&hl=ko&oi=ao">Dong-Guw Lee</a>,  
-  <a href="https://scholar.google.co.kr/citations?user=ivOqySYAAAAJ">Myung-Hwan Jeon</a>
+  <a href="https://scholar.google.co.kr/citations?user=ivOqySYAAAAJ">Myung-Hwan Jeon</a>,
   <a href="https://scholar.google.com/citations?user=W5MOKWIAAAAJ&hl=ko&oi=ao">Younggun Cho</a>,  
   <a href="https://ayoungk.github.io/">Ayoung Kim</a> at <a href="https://rpm.snu.ac.kr">RPM Robotics Lab</a>
 </div>
