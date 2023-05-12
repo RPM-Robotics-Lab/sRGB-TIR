@@ -1,3 +1,7 @@
+ <h2 align="center">
+  ** Source code is currently being uploaded/updated. Will be uploaded within 2 weeks. Please stay tuned **
+</h2>
+
 ### Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
 Accepted Proceedings to ICRA 2023 
 
@@ -82,8 +86,8 @@ https://youtu.be/zq8Qh9ygm6w
 
 ## TODO
 - [x] Upload inference code
-- [] Upload style selection code
-- [] Upload training code for custom data training
+-  Upload style selection code
+-  Upload training code for custom data training
 
 
 
@@ -97,6 +101,12 @@ https://youtu.be/zq8Qh9ygm6w
    
 ## How To Use: RGB to TIR translation
  - ***Inference***  
+   ````
+   $ python3 test_batch.py --input_folder {input dir to your RGB images} --output_folder {output dir to store your translated images} --checkpoint {weight_file address} --a2b 1 --seed 1234 --num_style {number of tir styles to sample} --synchronized --output_only 
+   ````
+- ***Network weights***
+
+Please download them from here: {link to google drive}
 
 
 ## Network Details
@@ -105,8 +115,6 @@ https://youtu.be/zq8Qh9ygm6w
 Edge-guided multi-domain RGB2TIR translation architecture
 
 - Network Architecture
-
-
 
   - Content Encoder: single 7x7 conv block + four 4x4 conv block + four residual blocks + Instance Normalization
   - Style Encoder: single 7x7 conv block + four 4x4 conv block + four residual blocks + GAP + FC layers
@@ -131,9 +139,7 @@ Edge-guided multi-domain RGB2TIR translation architecture
  - ***Config files will be released after the review process has been cleared***
 
 
- <h2 align="center">
-  ** Source code will be available soon in April **
-</h2>
+
 
 ## Citation
 
