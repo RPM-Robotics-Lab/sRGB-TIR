@@ -1,7 +1,3 @@
-<h2 align="center">
-  ** Source code will be available soon in April **
-</h2>
-
 ### Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
 Accepted Proceedings to ICRA 2023 
 
@@ -82,9 +78,25 @@ Accepted Proceedings to ICRA 2023
 [![Video Label](http://img.youtube.com/vi/zq8Qh9ygm6w/0.jpg)]([https://youtu.be/uLR1RNqJ1Mw](https://youtu.be/zq8Qh9ygm6w)?t=0s)
 
 https://youtu.be/zq8Qh9ygm6w
-## How to use
 
- TBA.
+
+## TODO
+- [x] Upload inference code
+- [] Upload style selection code
+- [] Upload training code for custom data training
+
+
+
+
+## Environment Setup
+
+ - ***Download Repo***   
+   ````shell
+   $ git clone https://github.com/rpmsnu/sRGB-TIR.git
+   ````
+   
+## How To Use: RGB to TIR translation
+ - ***Inference***  
 
 
 ## Network Details
@@ -119,7 +131,9 @@ Edge-guided multi-domain RGB2TIR translation architecture
  - ***Config files will be released after the review process has been cleared***
 
 
- 
+ <h2 align="center">
+  ** Source code will be available soon in April **
+</h2>
 
 ## Citation
 
