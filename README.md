@@ -1,7 +1,3 @@
- <h2 align="center">
-  ** Source code is currently being uploaded/updated. Will be uploaded within 2 weeks. Please stay tuned **
-</h2>
-
 ### Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
 Accepted Proceedings to ICRA 2023 
 
@@ -99,6 +95,18 @@ https://youtu.be/zq8Qh9ygm6w
    $ git clone https://github.com/rpmsnu/sRGB-TIR.git
    ````
    
+   
+ - ***Docker support***   
+   
+   To make things alot easier for environmental setup, I have uploaded my docker image on Dockerhub,
+   
+   please use the following command to get the docker
+   ````
+   $docker pull donkeymouse/donkeymouse:icra
+   ````
+   *If there persists any problems, please file an issue!
+   
+   
 ## How To Use: RGB to TIR translation
  - ***Inference***  
    ````
@@ -108,11 +116,13 @@ https://youtu.be/zq8Qh9ygm6w
    For example, to translate RGB images stored under a folder called "input", and say you want to sample 5 styles, run the following command:
     ````
    $python3 inference_batch.py --input_folder ./input --output_folder ./output --checkpoint ./translation_weights.pt --a2b 0 --seed 1234 --num_style 5 --synchronized --output_only --config configs/tir2rgb_folder.yaml
- ````
+    ````
    
 - ***Network weights***
 
 Please download them from here: {link to google drive}
+
+
 
 
 ## Network Details
