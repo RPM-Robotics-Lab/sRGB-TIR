@@ -120,7 +120,9 @@ https://youtu.be/zq8Qh9ygm6w
    
 - ***Network weights***
 
-Please download them from here: {link to google drive}
+Please download them from here: [{link to google drive}](https://drive.google.com/file/d/1px5BfenEGXZL_J6EsPwFImai6wfmcrnq/view?usp=sharing)
+
+*If the link doesn't work, please file an issue!
 
 
 
@@ -169,6 +171,7 @@ year={2023},
 status={underreview}
 
 ```
+Also, a lot of the code has been built on top of MUNIT (ECCV2018), so please go cite their paper as well.  
 
 ## Contact
 If you have any questions, contact here please
