@@ -102,8 +102,14 @@ https://youtu.be/zq8Qh9ygm6w
 ## How To Use: RGB to TIR translation
  - ***Inference***  
    ````
-   $ python3 test_batch.py --input_folder {input dir to your RGB images} --output_folder {output dir to store your translated images} --checkpoint {weight_file address} --a2b 1 --seed 1234 --num_style {number of tir styles to sample} --synchronized --output_only 
+   $ python3 inference_batch.py --input_folder {input dir to your RGB images} --output_folder {output dir to store your translated images} --checkpoint {weight_file address} --a2b 0 --seed {your choice} --num_style {number of tir styles to sample} --synchronized --output_only 
    ````
+   
+   For example, to translate RGB images stored under a folder called "input", and say you want to sample 5 styles, run the following command:
+    ````
+   $python3 inference_batch.py --input_folder ./input --output_folder ./output --checkpoint ./translation_weights.pt --a2b 0 --seed 1234 --num_style 5 --synchronized --output_only --config configs/tir2rgb_folder.yaml
+ ````
+   
 - ***Network weights***
 
 Please download them from here: {link to google drive}
