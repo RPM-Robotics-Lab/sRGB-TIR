@@ -1,4 +1,4 @@
-### Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
+# Edge-guided Multi-domain RGB-to-TIR image Translation for Training Vision Tasks with Challenging Labels 
 Accepted Proceedings to ICRA 2023 
 
 <div align="left">  
